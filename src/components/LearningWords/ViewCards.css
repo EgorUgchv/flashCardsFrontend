@@ -1,0 +1,47 @@
+.card-min-height{
+    min-height: 100px;
+}
+
+.col-md-6 .card {
+    transform-style: preserve-3d;
+    transition: transform 0.8s ease;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: white !important;
+}
+
+.card h4  {
+    margin: 0;
+    color: black !important;
+}
+
+.btn.again{
+    background-color: #CA0147 !important;
+    color: white;
+}
+
+.btn.hard{
+    background-color: #EDC5AB !important;
+    color: white;
+}
+
+.btn.good{
+    background-color: #3EB489 !important;
+    color: white;
+}
+
+.btn.easy{
+    background-color: #EC9704 !important;
+    color: white;
+}
+
+
+
+h1, h2, h3, h4{
+    color: white !important;
+}
+
+.container{
+    box-sizing: border-box;
+}
+
