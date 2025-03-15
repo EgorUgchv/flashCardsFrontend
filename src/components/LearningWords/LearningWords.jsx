@@ -52,13 +52,14 @@ const LearningWords = ({title}) => {
             setIterator(prev => (prev - 1));
         }
     };
-    return (<div className="container justify-content-center">
-
-        <div className="card mt-5 mb-5 p-2 pb-3">
-            <h4>Название колоды: {deckTitle}</h4>
+    return (<div className="container d-flex flex-column justify-content-center ">
+        <div className="row justify-content-center">
+            <div className="card  col-12 col-md-8 col-lg-6 mt-5 mb-5 p-2 pb-3">
+                <h4>Название колоды: {deckTitle}</h4>
+            </div>
         </div>
 
-        <div className="row justify-content-center">
+        <div className="row justify-content-center ">
             <div className="col-12 col-md-8 col-lg-6">
                 <Card
                     frontContent={<h4
