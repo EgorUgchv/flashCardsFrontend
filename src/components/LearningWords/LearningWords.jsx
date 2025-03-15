@@ -47,11 +47,6 @@ const LearningWords = ({title}) => {
             setIterator(prev => (prev + 1));
         }
     };
-    const handleDecreaseIteratorOnClick = () => {
-        if (iterator - 1 >= 0) {
-            setIterator(prev => (prev - 1));
-        }
-    };
     return (<div className="container d-flex flex-column justify-content-center ">
         <div className="row justify-content-center">
             <div className="card  col-12 col-md-8 col-lg-6 mt-5 mb-5 p-2 pb-3">
@@ -115,35 +110,10 @@ const LearningWords = ({title}) => {
                         <div className="col d-flex justify-content-center align-items-center">
                             <h3>{iterator + 1}/{lengthDeck}</h3>
                         </div>
-                        {/*
-                        <div className="col">
-                            <button className="btn btn-sm btn-info"
-                                    onClick={handleDecreaseIteratorOnClick}
-                            >Предыдущая карта
-                            </button>
-                        </div>
-
-                        <div className="col d-flex justify-content-center align-items-center">
-                            <h3>{iterator + 1}/{lengthDeck}</h3>
-                        </div>
-                        <div className="col">
-                            <button
-                                className="btn btn-sm btn-info"
-                                onClick={handleIncreaseIteratorOnClick}
-                            >Следующая карта
-                            </button>
-                        </div>
-*/}
                     </div>
                 </div>
             </div>
         </div>
-
-        {/*
-            <button className="btn"
-                    onClick={handleIteratorOnClick}
-            >Следующая карта</button>
-*/}
     </div>);
 };
 
