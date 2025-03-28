@@ -1,8 +1,8 @@
 # Frontend for flashCardsJava project
 
-Project create with React Framework.
+Project created with React Framework.
 
-You can up full project with Backend following the instruction [here](https://github.com/EgorUgchv/flashCardsFrontend)
+You can run the full project with Backend following the instruction [here](https://github.com/EgorUgchv/flashCardsFrontend)
 
 Project images: 
 
