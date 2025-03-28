@@ -49,7 +49,7 @@ const LearningWords = ({title}) => {
     };
     return (<div className="container d-flex flex-column justify-content-center ">
         <div className="row justify-content-center">
-            <div className="card  col-12 col-md-8 col-lg-6 mt-5 mb-5 p-2 pb-3">
+            <div className="card  col-12 col-md-8 col-lg-6 mt-5 mb-4 p-2 pb-3">
                 <h4>Название колоды: {deckTitle}</h4>
             </div>
         </div>

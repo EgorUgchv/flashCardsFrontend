@@ -1,8 +1,14 @@
-# React + Vite
+# Frontend for flashCardsJava project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project create with React Framework.
 
-Currently, two official plugins are available:
+You can up full project with Backend following the instruction [here](https://github.com/EgorUgchv/flashCardsFrontend)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Project images: 
+
+![add-cards Page](/public/add-cardsPage.png)
+
+After click on button `Создать` you redirect on page where you can see your flashcards.
+
+![cards Page](/public/cardsPage.png)
+

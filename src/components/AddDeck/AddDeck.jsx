@@ -51,7 +51,8 @@ const AddDeck = ({setDeckTitle}) => {
     };
 
     return (<div className="container">
-        <div className="card mt-5 mb-5 p-2 pb-3">
+        <div className="ms-5 me-5">
+        <div className="card  mt-5 mb-5 p-2 pb-3">
             <h3>Название</h3>
             <input className="form-control w-100"
                    name="title"
@@ -93,7 +94,7 @@ const AddDeck = ({setDeckTitle}) => {
         </div>)}
 
             <button type="submit"
-                    className="btn btn-primary mt-2"
+                    className="btn btn-primary mt-2 pl-3"
             >Создать
             </button>
         </form>
@@ -106,6 +107,7 @@ const AddDeck = ({setDeckTitle}) => {
         >
             <h3>+ Добавить карточку</h3>
         </button>
+        </div>
     </div>);
 };
 AddDeck.propTypes = {
